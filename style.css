@@ -1,0 +1,83 @@
+html {
+    font-size: 1.66vw;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 4rem;
+    background-color: rgb(216, 214, 214);
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.article {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(237, 247, 100, 0.39);
+    flex-grow: 2;
+}
+
+.article_1 {
+    box-sizing: content-box;
+    width: 100%;
+    height: 7rem;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.article_2 {
+    box-sizing: content-box;
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(220, 233, 41, 0.671);
+    margin-left: 18%;
+}
+
+.article_3 {
+    box-sizing: content-box;
+    width: 70%;
+    height: 3rem;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(220, 233, 41, 0.671);
+    margin-left: 15%;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(157, 243, 114, 0.329);
+    flex-grow: 1;
+}
+
+.footer {
+    display: flex;
+    height: 4rem;
+    background-color: rgb(216, 214, 214);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_1 {
+    box-sizing: content-box;
+    background-color: white;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    align-content: center;
+}
